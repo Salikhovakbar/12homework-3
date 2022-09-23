@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+table{
+    border-collapse: collapse;
+}
+td, td, th, tr{
+    border: 1px solid black;
+    padding: 5px 15px;
+    background-color: aqua;
+}
+#add-answer{
+    margin-left: 100px;
+}
+button{
+    padding: 5px 10px;
+    border: none;
+}
+button:hover{
+    background-color: dodgerblue;
+}
