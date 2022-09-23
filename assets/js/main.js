@@ -29,21 +29,15 @@ answer2.innerText = 0;
 
 })
 equal.addEventListener("click", (e) => {
-    const one = document.createElement("span");
-    answer1.appendChild(one);
-one.innerText = eval( + one + two + three + four + five + six + seven + eight + nine + ten + eleven + twelve + ther + fourteen + fivteen );
+document.getElementById("input").value = eval(input.value)
+
 })
 plus.addEventListener("click", () => {
-    const two = document.createElement("span");
-    answer1.appendChild(two);
-    two.innerText = "+";
-    answer2.innerText = "";
+    document.getElementById("input").value += '+';
 })
 minus.addEventListener("click", () => {
-    const three = document.createElement("span");
-    answer1.appendChild(three);
-    three.innerText = "-";
-    answer2.innerText = "";
+    document.getElementById("input").value += '-';
+
 })
 times.addEventListener("click", (e) => {
     const four = document.createElement("span");
@@ -59,73 +53,51 @@ divided.addEventListener("click", (e) => {
 
 })
 number1.addEventListener("click", (e) => {
-    const six = document.createElement("span");
-    answer1.appendChild(six);
-    six.innerText = 1;
-    answer2.innerText = "";
+    document.getElementById("input").value += '1';
+
 
 })
 number2.addEventListener("click", (e) => {
-    const seven = document.createElement("span");
-    answer1.appendChild(seven);
-    seven.innerText = 2;
-    answer2.innerText = "";
-
+    document.getElementById("input").value += '2';
 })
 number3.addEventListener("click", (e) => {
-    const eight = document.createElement("span");
-    answer1.appendChild(eight);
-    eight.innerText = 3;
-    answer2.innerText = "";
+    document.getElementById("input").value += '3';
+
 
 })
 number4.addEventListener("click", (e) => {
-    const nine = document.createElement("span");
-    answer1.appendChild(nine);
-    nine.innerText = 4;
-    answer2.innerText = "";
+    document.getElementById("input").value += '**';
+
 
 })
 number5.addEventListener("click", (e) => {
-    const ten = document.createElement("span");
-    answer1.appendChild(ten);
-    ten.innerText = 5;
-    answer2.innerText = "";
+    document.getElementById("input").value += '4';
+
 
 })
 number6.addEventListener("click", (e) => {
-    const eleven = document.createElement("span");
-    answer1.appendChild(eleven);
-    eleven.innerText = 6;
-    answer2.innerText = "";
+    document.getElementById("input").value += '5';
+
 
 })
 
 number7.addEventListener("click", (e) => {
-    const twelve = document.createElement("span");
-    answer1.appendChild(twelve);
-    twelve.innerText = 7;
-    answer2.innerText = "";
+    document.getElementById("input").value += '6';
+
 
 })
 number8.addEventListener("click", (e) => {
-    const ther = document.createElement("span");
-    answer1.appendChild(ther);
-    ther.innerText = 8;
-    answer2.innerText = "";
+    document.getElementById("input").value += '***';
+
 
 })
 number9.addEventListener("click", (e) => {
-    const fourteen = document.createElement("span");
-    answer1.appendChild(fourteen);
-    fourteen.innerText = 9;
-    answer2.innerText = "";
+    document.getElementById("input").value += '7';
+
 
 })
 number0.addEventListener("click", (e) => {
-    const fivteen = document.createElement("span");
-    answer1.appendChild(fivteen);
-    fivteen.innerText = 0;
-    answer2.innerText = "";
+    document.getElementById("input").value += '8';
+
 
 })
